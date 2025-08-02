@@ -1,0 +1,214 @@
+{
+  "keywords": [
+    {
+      "id": "1",
+      "term": "ESG reporting requirements",
+      "category": "ESG & Sustainability",
+      "type": "question",
+      "description": "Environmental, social, and governance reporting standards"
+    },
+    {
+      "id": "2",
+      "term": "Market surveillance best practices",
+      "category": "Market Surveillance",
+      "type": "question",
+      "description": "Best practices for monitoring market activity and compliance"
+    },
+    {
+      "id": "3",
+      "term": "Board meeting management",
+      "category": "Corporate Governance",
+      "type": "question",
+      "description": "Tools and processes for effective board meeting management"
+    },
+    {
+      "id": "4",
+      "term": "Regulatory compliance automation",
+      "category": "Regulatory Technology",
+      "type": "question",
+      "description": "Automated solutions for regulatory compliance"
+    },
+    {
+      "id": "5",
+      "term": "Risk analytics dashboard",
+      "category": "Market Analytics",
+      "type": "question",
+      "description": "Real-time risk monitoring and analytics tools"
+    },
+    {
+      "id": "6",
+      "term": "Clearing and settlement services",
+      "category": "Clearing & Settlement",
+      "type": "question",
+      "description": "Central counterparty clearing and settlement solutions"
+    },
+    {
+      "id": "7",
+      "term": "Nasdaq Boardvantage",
+      "category": "Corporate Governance",
+      "type": "product",
+      "description": "Board meeting management and collaboration platform"
+    },
+    {
+      "id": "8",
+      "term": "Market Surveillance SaaS",
+      "category": "Market Surveillance",
+      "type": "product",
+      "description": "Cloud-based market surveillance and monitoring solution"
+    },
+    {
+      "id": "9",
+      "term": "ESG Data Portal",
+      "category": "ESG & Sustainability",
+      "type": "product",
+      "description": "Comprehensive ESG data and analytics platform"
+    },
+    {
+      "id": "10",
+      "term": "IPO listing process",
+      "category": "Capital Markets",
+      "type": "question",
+      "description": "Steps and requirements for initial public offering on Nasdaq"
+    },
+    {
+      "id": "11",
+      "term": "Market data feeds",
+      "category": "Market Analytics",
+      "type": "product",
+      "description": "Real-time and historical market data services"
+    },
+    {
+      "id": "12",
+      "term": "Trade surveillance",
+      "category": "Market Surveillance",
+      "type": "feature",
+      "description": "Automated monitoring of trading activities for compliance"
+    },
+    {
+      "id": "13",
+      "term": "Director collaboration",
+      "category": "Corporate Governance",
+      "type": "feature",
+      "description": "Secure collaboration tools for board directors"
+    },
+    {
+      "id": "14",
+      "term": "Sustainability reporting",
+      "category": "ESG & Sustainability",
+      "type": "feature",
+      "description": "Tools for creating comprehensive sustainability reports"
+    },
+    {
+      "id": "15",
+      "term": "Market making",
+      "category": "Capital Markets",
+      "type": "service",
+      "description": "Market making services and liquidity provision"
+    },
+    {
+      "id": "16",
+      "term": "Regulatory filing",
+      "category": "Regulatory Technology",
+      "type": "feature",
+      "description": "Automated regulatory filing and submission tools"
+    },
+    {
+      "id": "17",
+      "term": "Risk management",
+      "category": "Market Analytics",
+      "type": "solution",
+      "description": "Comprehensive risk assessment and management tools"
+    },
+    {
+      "id": "18",
+      "term": "Corporate governance",
+      "category": "Corporate Governance",
+      "type": "solution",
+      "description": "Complete corporate governance and compliance solutions"
+    },
+    {
+      "id": "19",
+      "term": "Market transparency",
+      "category": "Market Surveillance",
+      "type": "solution",
+      "description": "Tools and services for improving market transparency"
+    },
+    {
+      "id": "20",
+      "term": "ESG metrics",
+      "category": "ESG & Sustainability",
+      "type": "data",
+      "description": "Environmental, social, and governance performance metrics"
+    },
+    {
+      "id": "21",
+      "term": "Trading infrastructure",
+      "category": "Capital Markets",
+      "type": "technology",
+      "description": "High-performance trading systems and infrastructure"
+    },
+    {
+      "id": "22",
+      "term": "Compliance monitoring",
+      "category": "Regulatory Technology",
+      "type": "service",
+      "description": "Continuous monitoring for regulatory compliance"
+    },
+    {
+      "id": "23",
+      "term": "Market volatility",
+      "category": "Market Analytics",
+      "type": "data",
+      "description": "Market volatility analysis and reporting tools"
+    },
+    {
+      "id": "24",
+      "term": "Board portal",
+      "category": "Corporate Governance",
+      "type": "platform",
+      "description": "Secure digital platform for board communications"
+    },
+    {
+      "id": "25",
+      "term": "Insider trading detection",
+      "category": "Market Surveillance",
+      "type": "feature",
+      "description": "AI-powered detection of potential insider trading"
+    },
+    {
+      "id": "26",
+      "term": "Carbon footprint tracking",
+      "category": "ESG & Sustainability",
+      "type": "feature",
+      "description": "Tools for tracking and reporting carbon emissions"
+    },
+    {
+      "id": "27",
+      "term": "Market indices",
+      "category": "Market Analytics",
+      "type": "data",
+      "description": "Nasdaq composite and sector-specific market indices"
+    },
+    {
+      "id": "28",
+      "term": "Listing requirements",
+      "category": "Capital Markets",
+      "type": "information",
+      "description": "Requirements and standards for listing on Nasdaq"
+    },
+    {
+      "id": "29",
+      "term": "RegTech solutions",
+      "category": "Regulatory Technology",
+      "type": "solution",
+      "description": "Technology solutions for regulatory compliance"
+    },
+    {
+      "id": "30",
+      "term": "Market abuse detection",
+      "category": "Market Surveillance",
+      "type": "feature",
+      "description": "Advanced algorithms for detecting market manipulation"
+    }
+  ]
+}

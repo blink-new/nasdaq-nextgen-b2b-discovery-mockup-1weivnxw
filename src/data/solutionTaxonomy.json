@@ -1,0 +1,660 @@
+{
+  "version": "1.1",
+  "updatedAt": "2025-07-31T16:00:00+05:30",
+  "defaults": {
+    "left": {
+      "title": "Top Solution Areas",
+      "items": [
+        {
+          "id": "market-analytics",
+          "title": "Market Analytics",
+          "href": "/solutions/market-analytics",
+          "description": "Advanced market intelligence & insights"
+        },
+        {
+          "id": "market-surveillance",
+          "title": "Market Surveillance",
+          "href": "/solutions/market-surveillance",
+          "description": "Real-time monitoring & compliance"
+        },
+        {
+          "id": "corporate-governance",
+          "title": "Corporate Governance",
+          "href": "/solutions/corporate-governance",
+          "description": "Board management & governance solutions"
+        },
+        {
+          "id": "esg-sustainability",
+          "title": "ESG & Sustainability",
+          "href": "/solutions/esg-sustainability",
+          "description": "Environmental, social, and governance data"
+        }
+      ]
+    },
+    "right": {
+      "title": "Common Customer Questions",
+      "items": [
+        {
+          "id": "g-f1",
+          "question": "How do we manage board meetings and materials securely?",
+          "href": "/search?q=board%20meeting%20management"
+        },
+        {
+          "id": "g-f2",
+          "question": "How can we monitor market abuse and reduce false positives?",
+          "href": "/solutions/market-surveillance/trade-surveillance"
+        },
+        {
+          "id": "g-f3",
+          "question": "What's the easiest way to prepare ESG/CSRD reports?",
+          "href": "/solutions/esg-sustainability/esg-reporting"
+        },
+        {
+          "id": "g-f4",
+          "question": "Do you provide real-time and historical tick data with SLAs?",
+          "href": "/solutions/market-analytics/real-time-data"
+        },
+        {
+          "id": "g-f5",
+          "question": "Can we automate regulatory filings with audit trails?",
+          "href": "/solutions/corporate-governance/regulatory-filings"
+        },
+        {
+          "id": "g-f6",
+          "question": "Is there a backtesting environment with sample notebooks?",
+          "href": "/solutions/market-analytics/analytics-platform"
+        }
+      ]
+    }
+  },
+  "areas": [
+    {
+      "id": "corporate-governance",
+      "title": "Corporate Governance",
+      "href": "/solutions/corporate-governance",
+      "description": "Board management & governance solutions",
+      "tags": ["governance", "board", "compliance", "risk", "filings"],
+      "faqs": [
+        {
+          "id": "cg-f1",
+          "question": "How do we manage board meetings securely, including agendas and minutes?",
+          "href": "/search?q=board%20meeting%20management"
+        },
+        {
+          "id": "cg-f2",
+          "question": "Can directors review and e-sign materials on mobile with audit trails?",
+          "href": "/solutions/corporate-governance/board-portal"
+        },
+        {
+          "id": "cg-f3",
+          "question": "How do we automate SEC/ESMA filings with controls and XBRL?",
+          "href": "/solutions/corporate-governance/regulatory-filings"
+        },
+        {
+          "id": "cg-f4",
+          "question": "How can we manage insider-trading windows and pre-clearance?",
+          "href": "/solutions/corporate-governance/insider-trading-compliance"
+        },
+        {
+          "id": "cg-f5",
+          "question": "How do we centralize subsidiary/entity records for audits?",
+          "href": "/solutions/corporate-governance/entity-management"
+        },
+        {
+          "id": "cg-f6",
+          "question": "Which governance KPIs are available for the board?",
+          "href": "/solutions/corporate-governance/governance-analytics"
+        }
+      ],
+      "children": [
+        {
+          "id": "board-portal",
+          "title": "Board Portal",
+          "href": "/solutions/corporate-governance/board-portal",
+          "description": "Secure board materials, meetings, voting",
+          "tags": ["board", "meetings", "security"],
+          "related": ["entity-management", "minutes-management", "regulatory-filings", "insider-trading-compliance"],
+          "faqs": [
+            {
+              "id": "bp-f1",
+              "question": "Can we distribute encrypted board packs with watermarking?",
+              "href": "/solutions/corporate-governance/board-portal"
+            },
+            {
+              "id": "bp-f2",
+              "question": "How are agendas, annotations, and offline access handled?",
+              "href": "/solutions/corporate-governance/board-portal"
+            },
+            {
+              "id": "bp-f3",
+              "question": "Do you support e-votes and written resolutions?",
+              "href": "/solutions/corporate-governance/board-portal"
+            }
+          ],
+          "children": [
+            {
+              "id": "agenda-management",
+              "title": "Agenda Management",
+              "href": "/solutions/corporate-governance/board-portal/agenda-management"
+            },
+            {
+              "id": "minutes-management",
+              "title": "Minutes Management",
+              "href": "/solutions/corporate-governance/board-portal/minutes-management"
+            },
+            {
+              "id": "board-communications",
+              "title": "Secure Board Communications",
+              "href": "/solutions/corporate-governance/board-portal/communications"
+            }
+          ]
+        },
+        {
+          "id": "entity-management",
+          "title": "Entity & Subsidiary Management",
+          "href": "/solutions/corporate-governance/entity-management",
+          "description": "Corporate records, officers, obligations",
+          "tags": ["entities", "subsidiaries", "compliance"],
+          "related": ["regulatory-filings", "policy-management", "governance-analytics"],
+          "faqs": [
+            {
+              "id": "em-f1",
+              "question": "How do we track directors, officers, and powers of attorney?",
+              "href": "/solutions/corporate-governance/entity-management"
+            },
+            {
+              "id": "em-f2",
+              "question": "Can we auto-generate org charts and statutory registers?",
+              "href": "/solutions/corporate-governance/entity-management"
+            }
+          ],
+          "children": [
+            {
+              "id": "entity-registers",
+              "title": "Entity Registers",
+              "href": "/solutions/corporate-governance/entity-management/registers"
+            },
+            {
+              "id": "obligation-calendar",
+              "title": "Obligation Calendar",
+              "href": "/solutions/corporate-governance/entity-management/obligations"
+            },
+            {
+              "id": "org-charts",
+              "title": "Org Charts",
+              "href": "/solutions/corporate-governance/entity-management/org-charts"
+            }
+          ]
+        },
+        {
+          "id": "regulatory-filings",
+          "title": "Regulatory Filings & Disclosure",
+          "href": "/solutions/corporate-governance/regulatory-filings",
+          "description": "SEC/ESMA filings workflow and controls",
+          "tags": ["filings", "disclosure", "xbrl"],
+          "related": ["entity-management", "policy-management", "sox-controls"],
+          "faqs": [
+            {
+              "id": "rf-f1",
+              "question": "Do you support XBRL tagging and validations?",
+              "href": "/solutions/corporate-governance/regulatory-filings"
+            },
+            {
+              "id": "rf-f2",
+              "question": "Can we link numbers and narrative with review trails?",
+              "href": "/solutions/corporate-governance/regulatory-filings"
+            }
+          ],
+          "children": [
+            {
+              "id": "sec-edgar",
+              "title": "SEC EDGAR",
+              "href": "/solutions/corporate-governance/regulatory-filings/sec-edgar"
+            },
+            {
+              "id": "global-disclosure",
+              "title": "Global Disclosure & Newsroom",
+              "href": "/solutions/corporate-governance/regulatory-filings/global"
+            }
+          ]
+        },
+        {
+          "id": "insider-trading-compliance",
+          "title": "Insider Trading Compliance",
+          "href": "/solutions/corporate-governance/insider-trading-compliance",
+          "description": "Window management, pre-clearance, attestations",
+          "tags": ["insider-trading", "attestations"],
+          "related": ["policy-management", "board-portal", "governance-analytics"],
+          "faqs": [
+            {
+              "id": "itc-f1",
+              "question": "How do we run blackout windows and pre-clear trades?",
+              "href": "/solutions/corporate-governance/insider-trading-compliance"
+            },
+            {
+              "id": "itc-f2",
+              "question": "Are broker affirmations and attestations automated?",
+              "href": "/solutions/corporate-governance/insider-trading-compliance"
+            }
+          ]
+        },
+        {
+          "id": "policy-management",
+          "title": "Policy & Attestation Management",
+          "href": "/solutions/corporate-governance/policy-management",
+          "description": "Distribute, track, and certify policies",
+          "tags": ["policies", "certifications"],
+          "related": ["insider-trading-compliance", "sox-controls"],
+          "faqs": [
+            {
+              "id": "pm-f1",
+              "question": "Can employees attest to policy updates with reminders?",
+              "href": "/solutions/corporate-governance/policy-management"
+            }
+          ]
+        },
+        {
+          "id": "sox-controls",
+          "title": "SOX & Audit Controls",
+          "href": "/solutions/corporate-governance/sox-controls",
+          "description": "Controls testing, evidence, audit trails",
+          "tags": ["sox", "audit", "controls"],
+          "related": ["regulatory-filings", "governance-analytics"],
+          "faqs": [
+            {
+              "id": "sox-f1",
+              "question": "How are control tests, issues, and remediation tracked?",
+              "href": "/solutions/corporate-governance/sox-controls"
+            }
+          ]
+        },
+        {
+          "id": "governance-analytics",
+          "title": "Governance Analytics",
+          "href": "/solutions/corporate-governance/governance-analytics",
+          "description": "KPIs for board effectiveness and compliance",
+          "tags": ["analytics", "dashboards"],
+          "related": ["entity-management", "board-portal", "sox-controls"]
+        }
+      ]
+    },
+    {
+      "id": "market-surveillance",
+      "title": "Market Surveillance",
+      "href": "/solutions/market-surveillance",
+      "description": "Real-time monitoring & compliance",
+      "tags": ["surveillance", "market-abuse", "best-ex", "communications"],
+      "faqs": [
+        {
+          "id": "ms-f1",
+          "question": "How do we detect spoofing, layering, and wash trades?",
+          "href": "/solutions/market-surveillance/trade-surveillance"
+        },
+        {
+          "id": "ms-f2",
+          "question": "Can we reduce false positives with tunable models and backtesting?",
+          "href": "/solutions/market-surveillance/alert-tuning"
+        },
+        {
+          "id": "ms-f3",
+          "question": "How do we ingest exchange, broker, and FIX drop-copy in real time?",
+          "href": "/solutions/market-surveillance/data-ingestion"
+        },
+        {
+          "id": "ms-f4",
+          "question": "Do you support voice/email/chat surveillance with transcription and NLP?",
+          "href": "/solutions/market-surveillance/communications-surveillance"
+        },
+        {
+          "id": "ms-f5",
+          "question": "How are alerts triaged, escalated, and evidenced for regulators?",
+          "href": "/solutions/market-surveillance/case-management"
+        }
+      ],
+      "children": [
+        {
+          "id": "trade-surveillance",
+          "title": "Trade Surveillance",
+          "href": "/solutions/market-surveillance/trade-surveillance",
+          "description": "Abuse detection and best execution",
+          "tags": ["spoofing", "layering", "wash-trades", "best-ex"],
+          "related": ["alert-tuning", "case-management", "data-ingestion"],
+          "faqs": [
+            {
+              "id": "ts-f1",
+              "question": "Which scenarios are prebuilt (spoofing, layering, momentum ignition)?",
+              "href": "/solutions/market-surveillance/trade-surveillance"
+            },
+            {
+              "id": "ts-f2",
+              "question": "How is best execution monitored across venues?",
+              "href": "/solutions/market-surveillance/trade-surveillance"
+            }
+          ],
+          "children": [
+            {
+              "id": "market-abuse-detection",
+              "title": "Market Abuse Detection",
+              "href": "/solutions/market-surveillance/trade-surveillance/abuse-detection"
+            },
+            {
+              "id": "best-execution",
+              "title": "Best Execution Analytics",
+              "href": "/solutions/market-surveillance/trade-surveillance/best-execution"
+            }
+          ]
+        },
+        {
+          "id": "communications-surveillance",
+          "title": "Communications Surveillance",
+          "href": "/solutions/market-surveillance/communications-surveillance",
+          "description": "Email, chat, and voice analysis",
+          "tags": ["voice", "email", "chat", "nlp"],
+          "related": ["case-management", "records-retention"],
+          "faqs": [
+            {
+              "id": "cs-f1",
+              "question": "Do you transcribe voice and apply multilingual lexicons?",
+              "href": "/solutions/market-surveillance/communications-surveillance"
+            }
+          ],
+          "children": [
+            {
+              "id": "voice-transcription",
+              "title": "Voice Transcription",
+              "href": "/solutions/market-surveillance/communications-surveillance/voice"
+            },
+            {
+              "id": "ecomms-monitoring",
+              "title": "e-Comms Monitoring",
+              "href": "/solutions/market-surveillance/communications-surveillance/ecomms"
+            }
+          ]
+        },
+        {
+          "id": "alert-tuning",
+          "title": "Alert Tuning & Backtesting",
+          "href": "/solutions/market-surveillance/alert-tuning",
+          "description": "Thresholds, models, and outcomes",
+          "tags": ["models", "tuning", "backtesting"],
+          "related": ["trade-surveillance", "case-management"],
+          "faqs": [
+            {
+              "id": "at-f1",
+              "question": "How do we calibrate thresholds to reduce noise without missing risk?",
+              "href": "/solutions/market-surveillance/alert-tuning"
+            }
+          ]
+        },
+        {
+          "id": "case-management",
+          "title": "Case Management & Workflow",
+          "href": "/solutions/market-surveillance/case-management",
+          "description": "Investigations, notes, and evidence",
+          "tags": ["workflow", "audit"],
+          "related": ["trade-surveillance", "communications-surveillance"],
+          "faqs": [
+            {
+              "id": "cm-f1",
+              "question": "What audit trails and evidence exports are available for regulators?",
+              "href": "/solutions/market-surveillance/case-management"
+            }
+          ]
+        },
+        {
+          "id": "data-ingestion",
+          "title": "Real-Time Data Ingestion",
+          "href": "/solutions/market-surveillance/data-ingestion",
+          "description": "Exchange, broker, and drop-copy feeds",
+          "tags": ["market-data", "real-time"],
+          "related": ["trade-surveillance"]
+        },
+        {
+          "id": "records-retention",
+          "title": "Records Retention",
+          "href": "/solutions/market-surveillance/records-retention",
+          "description": "Retention policies and legal holds",
+          "tags": ["retention", "legal-hold"]
+        }
+      ]
+    },
+    {
+      "id": "esg-sustainability",
+      "title": "ESG & Sustainability",
+      "href": "/solutions/esg-sustainability",
+      "description": "Environmental, social, and governance data",
+      "tags": ["esg", "reporting", "carbon", "csrd", "tcfd"],
+      "faqs": [
+        {
+          "id": "esg-f1",
+          "question": "How do we prepare CSRD/ESRS reports mapped to GRI and SASB?",
+          "href": "/solutions/esg-sustainability/esg-reporting"
+        },
+        {
+          "id": "esg-f2",
+          "question": "Can you estimate Scope 3 emissions with supplier surveys and factors?",
+          "href": "/solutions/esg-sustainability/carbon-accounting"
+        },
+        {
+          "id": "esg-f3",
+          "question": "How do we maintain an audit trail for ESG metrics and assumptions?",
+          "href": "/solutions/esg-sustainability/assurance"
+        },
+        {
+          "id": "esg-f4",
+          "question": "Do you provide ESG data feeds and scores via API?",
+          "href": "/solutions/esg-sustainability/esg-data-feeds"
+        }
+      ],
+      "children": [
+        {
+          "id": "esg-reporting",
+          "title": "ESG Reporting & Frameworks",
+          "href": "/solutions/esg-sustainability/esg-reporting",
+          "description": "CSRD, GRI, SASB, TCFD mapping and workflows",
+          "tags": ["csrd", "gri", "sasb", "tcfd"],
+          "related": ["carbon-accounting", "materiality"],
+          "faqs": [
+            {
+              "id": "er-f1",
+              "question": "How are disclosures mapped across multiple frameworks?",
+              "href": "/solutions/esg-sustainability/esg-reporting"
+            }
+          ],
+          "children": [
+            {
+              "id": "framework-mapping",
+              "title": "Framework Mapping",
+              "href": "/solutions/esg-sustainability/esg-reporting/framework-mapping"
+            },
+            {
+              "id": "disclosure-workbench",
+              "title": "Disclosure Workbench",
+              "href": "/solutions/esg-sustainability/esg-reporting/workbench"
+            }
+          ]
+        },
+        {
+          "id": "carbon-accounting",
+          "title": "Emissions & Carbon Accounting",
+          "href": "/solutions/esg-sustainability/carbon-accounting",
+          "description": "Scopes 1–3, emission factors, supplier data",
+          "tags": ["scope1", "scope2", "scope3", "emission-factors"],
+          "related": ["supplier-engagement", "assurance"],
+          "faqs": [
+            {
+              "id": "ca-f1",
+              "question": "Do you support location- and market-based methods and RECs?",
+              "href": "/solutions/esg-sustainability/carbon-accounting"
+            }
+          ],
+          "children": [
+            {
+              "id": "emission-factors",
+              "title": "Emission Factors Library",
+              "href": "/solutions/esg-sustainability/carbon-accounting/factors"
+            },
+            {
+              "id": "supplier-surveys",
+              "title": "Supplier Surveys",
+              "href": "/solutions/esg-sustainability/carbon-accounting/suppliers"
+            }
+          ]
+        },
+        {
+          "id": "materiality",
+          "title": "Materiality & Risk",
+          "href": "/solutions/esg-sustainability/materiality",
+          "description": "Double materiality and scenario analysis",
+          "tags": ["materiality", "risk"],
+          "related": ["esg-reporting", "assurance"]
+        },
+        {
+          "id": "esg-data-feeds",
+          "title": "ESG Data & Scores (API)",
+          "href": "/solutions/esg-sustainability/esg-data-feeds",
+          "description": "Third-party ratings and proprietary scores",
+          "tags": ["api", "data-feeds"],
+          "related": ["market-analytics", "news-sentiment"]
+        },
+        {
+          "id": "assurance",
+          "title": "Assurance & Audit Trail",
+          "href": "/solutions/esg-sustainability/assurance",
+          "description": "Evidence collection and controls",
+          "tags": ["assurance", "audit"]
+        },
+        {
+          "id": "supplier-engagement",
+          "title": "Supplier Engagement",
+          "href": "/solutions/esg-sustainability/supplier-engagement",
+          "description": "Questionnaires and follow-ups",
+          "tags": ["suppliers", "scope3"]
+        }
+      ]
+    },
+    {
+      "id": "market-analytics",
+      "title": "Market Analytics",
+      "href": "/solutions/market-analytics",
+      "description": "Advanced market intelligence & insights",
+      "tags": ["market-data", "historical", "real-time", "alt-data", "backtesting"],
+      "faqs": [
+        {
+          "id": "ma-f1",
+          "question": "What is the latency and delivery (websocket, REST, files) for real-time data?",
+          "href": "/solutions/market-analytics/real-time-data"
+        },
+        {
+          "id": "ma-f2",
+          "question": "Do you provide full-depth order book and historical tick with corporate actions?",
+          "href": "/solutions/market-analytics/historical-data"
+        },
+        {
+          "id": "ma-f3",
+          "question": "How do you handle survivorship bias and symbol changes?",
+          "href": "/solutions/market-analytics/historical-data"
+        },
+        {
+          "id": "ma-f4",
+          "question": "Is there a backtesting environment with sample notebooks and SLAs?",
+          "href": "/solutions/market-analytics/analytics-platform"
+        }
+      ],
+      "children": [
+        {
+          "id": "real-time-data",
+          "title": "Real-Time Market Data",
+          "href": "/solutions/market-analytics/real-time-data",
+          "description": "Low-latency consolidated and depth feeds",
+          "tags": ["real-time", "websocket", "depth"],
+          "related": ["historical-data", "news-sentiment"],
+          "faqs": [
+            {
+              "id": "rtd-f1",
+              "question": "What are typical latencies and entitlement models?",
+              "href": "/solutions/market-analytics/real-time-data"
+            }
+          ],
+          "children": [
+            {
+              "id": "consolidated-feed",
+              "title": "Consolidated Feed",
+              "href": "/solutions/market-analytics/real-time-data/consolidated"
+            },
+            {
+              "id": "order-book-depth",
+              "title": "Order Book Depth",
+              "href": "/solutions/market-analytics/real-time-data/depth"
+            }
+          ]
+        },
+        {
+          "id": "historical-data",
+          "title": "Historical Data & Tick Store",
+          "href": "/solutions/market-analytics/historical-data",
+          "description": "Tick-level history with corporate actions",
+          "tags": ["history", "tick", "corporate-actions"],
+          "related": ["analytics-platform", "alt-data"],
+          "faqs": [
+            {
+              "id": "hd-f1",
+              "question": "How far back does coverage go and which venues are included?",
+              "href": "/solutions/market-analytics/historical-data"
+            }
+          ],
+          "children": [
+            {
+              "id": "tick-history",
+              "title": "Tick History",
+              "href": "/solutions/market-analytics/historical-data/tick-history"
+            },
+            {
+              "id": "corp-actions",
+              "title": "Corporate Actions & Adjustments",
+              "href": "/solutions/market-analytics/historical-data/corporate-actions"
+            }
+          ]
+        },
+        {
+          "id": "analytics-platform",
+          "title": "Analytics & Research Platform",
+          "href": "/solutions/market-analytics/analytics-platform",
+          "description": "Backtesting, factor library, microstructure",
+          "tags": ["backtesting", "factors", "microstructure"],
+          "related": ["historical-data", "real-time-data"],
+          "faqs": [
+            {
+              "id": "ap-f1",
+              "question": "Do you provide notebooks/SDKs and sandbox datasets?",
+              "href": "/solutions/market-analytics/analytics-platform"
+            }
+          ]
+        },
+        {
+          "id": "alt-data",
+          "title": "Alternative Data Marketplace",
+          "href": "/solutions/market-analytics/alt-data",
+          "description": "Curated vendor datasets and trials",
+          "tags": ["alt-data", "marketplace"],
+          "related": ["news-sentiment", "historical-data"]
+        },
+        {
+          "id": "news-sentiment",
+          "title": "News & Sentiment Analytics",
+          "href": "/solutions/market-analytics/news-sentiment",
+          "description": "Event detection and sentiment scoring",
+          "tags": ["news", "nlp", "sentiment"],
+          "related": ["real-time-data", "alt-data"]
+        },
+        {
+          "id": "visualization",
+          "title": "Visualization & Dashboards",
+          "href": "/solutions/market-analytics/visualization",
+          "description": "Prebuilt dashboards and embeddable widgets",
+          "tags": ["dashboards", "widgets"]
+        }
+      ]
+    }
+  ]
+}
